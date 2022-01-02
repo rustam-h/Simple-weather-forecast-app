@@ -1,16 +1,16 @@
 import * as React from 'react'
 import { Card, CardActions, CardContent, Button, Typography, Container, Box} from '@mui/material'
-import Image from '../static/card_bg.jpg';
+import Image from '../static/card-bg.jpg';
 function CardCurrentWeather({data}) {
     return (
         <>
             <Container
             align="center"
-            sx={{ mt: 2 }}
+            sx={{ pt: 10 }}
             >
                 {(data.sys) ?
                 <Card 
-                    variant="outlined"
+                    // variant="outlined"
                     sx ={{ 
                     height: 450,
                     maxWidth:{xs: 350, sm: 500, md: 800},
