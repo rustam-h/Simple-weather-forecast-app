@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Card, CardActions, CardContent, Button, Typography, Container, Box} from '@mui/material'
-import Image from '../static/card-bg.jpg';
+import {Card, CardContent, Typography, Container, Box} from '@mui/material'
+
 function CardCurrentWeather({data}) {
     return (
         <>
@@ -10,20 +10,21 @@ function CardCurrentWeather({data}) {
             >
                 {(data.sys) ?
                 <Card 
-                    // variant="outlined"
+                    elevation={20}
                     sx ={{ 
-                    height: 450,
-                    maxWidth:{xs: 350, sm: 500, md: 800},
-                    backgroundImage: `url(${Image})`,
-                    backgroundSize: 'cover'
+                        height: '100%',
+                        maxWidth:{xs: 400, sm: 500, md: 700, lg: 800},
+                        backgroundColor: '#fdfff5',
+                        opacity: 0.75,
+                        borderRadius: 5
                     }}>
                     <CardContent>
                         <Box display="flex" flexDirection="row">
                         <Box p={1}>
-                            <Typography variant="h2" color='common.white'>
+                            <Typography variant="h2" color='primary.dark'>
                                 {data.name},{data.sys.country}
                             </Typography>
-                            <Typography variant="caption" color='common.white'>
+                            <Typography variant="caption" color='secondary.main'>
                             {data.coord.lon}, {data.coord.lat}
                             </Typography>
                         </Box>
@@ -32,28 +33,28 @@ function CardCurrentWeather({data}) {
                     <CardContent>
                         <Box display="flex" flexDirection="row-reverse">
                         <Box p={0}>
-                            <Typography variant="h4" color="common.white">
+                            <Typography variant="h3" color="primary.dark">
                             Temp: {data.main.temp}
                             <span>&#176;</span>
                             {"C"}
                             </Typography>
-                            <Typography variant="h6" color="common.white">
+                            <Typography variant="h5" color="secondary.main">
                                 {data.weather[0].description}
                             </Typography>
                         </Box>
                         </Box>
                     </CardContent>
                     <CardContent
-                    sx={{ mt: 17 }}
+                    sx={{ mt: 15 }}
                     >
-                        <Box display="flex" flexDirection="row-reverse">
+                        <Box display="flex" flexDirection="row">
                             <Box p={1}>
-                                <Typography variant="h6" color="primary.dark">
+                                <Typography variant="h5" color="primary.dark">
                                 Humidity: {data.main.humidity}%
                                 </Typography>
                             </Box>
                             <Box p={1}>
-                                <Typography variant="h6" color="primary.dark">
+                                <Typography variant="h5" color="primary.dark">
                                 Pressure: {data.main.pressure} pa
                                 </Typography>
                             </Box>
