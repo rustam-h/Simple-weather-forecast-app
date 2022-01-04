@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Simple-weather-forecast-app/static/css/main.c5d0480e.css",
+    "main.js": "/Simple-weather-forecast-app/static/js/main.1324e33c.js",
+    "static/js/787.dd16e2aa.chunk.js": "/Simple-weather-forecast-app/static/js/787.dd16e2aa.chunk.js",
+    "static/media/squall-bg.jpg": "/Simple-weather-forecast-app/static/media/squall-bg.de5d46bc457316b6150f.jpg",
+    "static/media/ash-bg.jpg": "/Simple-weather-forecast-app/static/media/ash-bg.e0ba69900552d1495aec.jpg",
+    "static/media/tornado-bg.jpg": "/Simple-weather-forecast-app/static/media/tornado-bg.f8fd7cdf3e3e51a72401.jpg",
+    "static/media/rain-bg.jpg": "/Simple-weather-forecast-app/static/media/rain-bg.1efc2b00111ff4725f7b.jpg",
+    "static/media/mist-bg.jpg": "/Simple-weather-forecast-app/static/media/mist-bg.a1e7ce027240312fc85c.jpg",
+    "static/media/clear-bg.jpg": "/Simple-weather-forecast-app/static/media/clear-bg.86024e6de3ddb74e6466.jpg",
+    "static/media/snow-bg.jpg": "/Simple-weather-forecast-app/static/media/snow-bg.6a62ab132c92e821b59c.jpg",
+    "static/media/smoke-bg.jpg": "/Simple-weather-forecast-app/static/media/smoke-bg.07ddb20f50bc3c82b627.jpg",
+    "static/media/haze-bg.jpg": "/Simple-weather-forecast-app/static/media/haze-bg.70b4fcd01f2d1d2fb0de.jpg",
+    "static/media/sand-bg.jpg": "/Simple-weather-forecast-app/static/media/sand-bg.e5bd8cc315ef0044ff69.jpg",
+    "static/media/clouds-bg.jpg": "/Simple-weather-forecast-app/static/media/clouds-bg.dffc249c82faef450268.jpg",
+    "static/media/thunderstorm-bg.jpg": "/Simple-weather-forecast-app/static/media/thunderstorm-bg.361c87ea068ff1ad8aaf.jpg",
+    "static/media/dust-bg.jpg": "/Simple-weather-forecast-app/static/media/dust-bg.ef94e68a2d6c5c1cf325.jpg",
+    "static/media/drizzle-bg.jpg": "/Simple-weather-forecast-app/static/media/drizzle-bg.f4628e32ec1d4899886b.jpg",
+    "static/media/card-bg.jpg": "/Simple-weather-forecast-app/static/media/card-bg.c03a5db4e1bf815eb4e3.jpg",
+    "static/media/fog-bg.jpg": "/Simple-weather-forecast-app/static/media/fog-bg.dd9fd9de06645e6e3fb8.jpg",
+    "index.html": "/Simple-weather-forecast-app/index.html",
+    "main.c5d0480e.css.map": "/Simple-weather-forecast-app/static/css/main.c5d0480e.css.map",
+    "main.1324e33c.js.map": "/Simple-weather-forecast-app/static/js/main.1324e33c.js.map",
+    "787.dd16e2aa.chunk.js.map": "/Simple-weather-forecast-app/static/js/787.dd16e2aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5d0480e.css",
+    "static/js/main.1324e33c.js"
+  ]
+}
